@@ -53,7 +53,7 @@ public class ValidasiBeratBarang {
 
         } catch (Exception e) {
             // Menangani error lainnya yang tidak terduga
-            System.out.println("‼️ Terjadi kesalahan: " + e.getMessage());
+            System.out.println(" Terjadi kesalahan: " + e.getMessage());
         }
 
         input.close(); // Menutup scanner untuk menghindari kebocoran resource
